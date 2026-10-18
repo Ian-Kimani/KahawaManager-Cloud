@@ -320,75 +320,83 @@ The Payouts module (`payout.service.js`, `payout.controller.js`) automates the m
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141503.png" alt="Secure ERP Login" width="100%" />
+        <img src="docs/screenshots/01-login.png" alt="Secure ERP Login" width="100%" />
         <br />
         <em><strong>1. Glassmorphic ERP Portal Login:</strong> Role-aware authentication with brute-force rate limiting and Double-Submit CSRF protection.</em>
       </td>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141542.png" alt="Factories & Manager Provisioning" width="100%" />
+        <img src="docs/screenshots/02-command-center.png" alt="Factories & Manager Provisioning" width="100%" />
         <br />
         <em><strong>2. Multi-Factory Command Center:</strong> Society KPI ribbon, branch registration, manager onboarding, and 10-year Edge License Key generator.</em>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141603.png" alt="Real-Time Farmer Registry" width="100%" />
+        <img src="docs/screenshots/03-farmer-directory.png" alt="Real-Time Farmer Registry" width="100%" />
         <br />
         <em><strong>3. Real-Time Farmer Directory:</strong> WebSocket delta-updated table with dynamic JSONB custom columns, advance balances, and PDF/CSV export.</em>
       </td>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141630.png" alt="Season Management" width="100%" />
+        <img src="docs/screenshots/04-seasons.png" alt="Season Management" width="100%" />
         <br />
         <em><strong>4. Harvest Season Lifecycle:</strong> Active season telemetry, historical season archives, and one-click Season Summary PDF generation.</em>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141645.png" alt="Farmer Advances Module" width="100%" />
+        <img src="docs/screenshots/05-advances.png" alt="Farmer Advances Module" width="100%" />
         <br />
         <em><strong>5. Farmer Advances (Inputs & Loans):</strong> Track fertilizer, seedling, and cash advances with automatic unit-price memory.</em>
       </td>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141708.png" alt="Factory Expenses Module" width="100%" />
+        <img src="docs/screenshots/06-expenses.png" alt="Factory Expenses Module" width="100%" />
         <br />
         <em><strong>6. Factory Operational Expenses:</strong> Category-grouped expense ribbons and season-scoped cost tracking.</em>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20141951.png" alt="Targeted SMS Communications" width="100%" />
+        <img src="docs/screenshots/07-sms-broadcasts.png" alt="Targeted SMS Communications" width="100%" />
         <br />
         <em><strong>7. SMS Broadcast Center:</strong> Society, factory, or individual farmer SMS dispatch with segment counter and Africa's Talking logs.</em>
       </td>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20142104.png" alt="End of Season Payouts" width="100%" />
+        <img src="docs/screenshots/08-payouts.png" alt="End of Season Payouts" width="100%" />
         <br />
         <em><strong>8. End-of-Season Net Payout Engine:</strong> 3-step payout calculator with automatic advance deduction, M-Pesa B2C disbursement, and Bank CSV export.</em>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20142143.png" alt="Analytics & Calendar Heatmap" width="100%" />
+        <img src="docs/screenshots/09-analytics.png" alt="Analytics & Calendar Heatmap" width="100%" />
         <br />
         <em><strong>9. Yield Analytics & Calendar Heatmap:</strong> Recharts delivery timelines paired with a 30-day delivery density heatmap.</em>
       </td>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20142202.png" alt="Daily Ledger Slide-Over Drawer" width="100%" />
+        <img src="docs/screenshots/10-daily-ledger.png" alt="Daily Ledger Slide-Over Drawer" width="100%" />
         <br />
         <em><strong>10. Daily Ledger Drawer:</strong> Granular per-day weighing transactions, micro-metrics (Volume, Tx, Avg, Max), and instant PDF export.</em>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20142334.png" alt="System Audit Logs" width="100%" />
+        <img src="docs/screenshots/11-audit-trail.png" alt="System Audit Logs" width="100%" />
         <br />
         <em><strong>11. System Audit Trail:</strong> Role-scoped activity monitoring with user, action, entity, IP address, and date-range filters.</em>
       </td>
       <td align="center" width="50%">
-        <img src="Screenshot%202026-09-13%20142353.png" alt="Audit Payload Inspector & Dark Mode" width="100%" />
+        <img src="docs/screenshots/12-audit-dark-mode.png" alt="Audit Payload Inspector & Dark Mode" width="100%" />
         <br />
         <em><strong>12. Audit Metadata Inspector & Dark Theme:</strong> Raw JSONB request payload inspection modal and full dark-mode support.</em>
       </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="docs/screenshots/13-additional-interface.png" alt="Additional Kahawa Cloud interface" width="100%" />
+        <br />
+        <em><strong>13. Additional Kahawa Cloud Interface:</strong> A further view of the executive web portal and its operational workflows.</em>
+      </td>
+      <td width="50%"></td>
     </tr>
   </table>
 </div>
